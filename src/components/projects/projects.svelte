@@ -1,5 +1,6 @@
 <script>
 	import { projects } from './projects';
+	import Icon from '@iconify/svelte';
 </script>
 
 <section class="bg-slate-500">
@@ -11,13 +12,28 @@
    hover:scale-105 delay-200 duration-700 dark:shadow-white"
 			>
 				<img src={img} alt={nome} />
-				<h4>{nome}</h4>
+				<div class="flex flex-row">
+					<span>{nome}</span><span>
+						<a href={end}>
+							<Icon
+								icon="f7:arrow-turn-up-right"
+								inline={true}
+								style="font-size: 20px; font-weight: bold;"
+							/></a
+						><span> </span></span
+					>
+				</div>
 				<span>{tec1}</span> <span>{tec2}</span>
 				<span>{tec3}</span> <span>{tec4}</span>
-				<p>
-					<a href={end}>visite</a>
-				</p>
+				<p></p>
 			</div>
 		{/each}
 	</div>
 </section>
+
+<style>
+	span {
+		margin: 0.3rem;
+		text-align: left;
+	}
+</style>

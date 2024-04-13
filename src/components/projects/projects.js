@@ -32,7 +32,7 @@ export let projects = [
 	},
 	{
 		id: 4,
-		nome: 'uvue',
+		nome: 'u-vue',
 		img: susi,
 		tec1: 'vue',
 		tec2: 'vuetify',
@@ -59,26 +59,6 @@ export let projects = [
 		tec3: 'framer',
 		tec4: 'framer',
 		end: 'https://www.equipemediacao.com.br/'
-	},
-	{
-		id: 7,
-		nome: 'mediaescolar',
-		img: susi,
-		tec1: 'react native',
-		tec2: 'android',
-		tec3: 'expo',
-		tec4: 'framer',
-		end: 'https://play.google.com/store/apps/details?id=com.jcgsr.mediaEscolar'
-	},
-	{
-		id: 8,
-		nome: 'inglesfundamentalmaior',
-		img: susi,
-		tec1: 'react native',
-		tec2: 'android',
-		tec3: 'expo',
-		tec4: 'framer',
-		end: 'https://play.google.com/store/apps/details?id=com.jcgsr.inglesFundamentalMaior'
 	},
 	{
 		id: 9,
