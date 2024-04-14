@@ -1,4 +1,12 @@
 import susi from '$lib/img/susi.png';
+import camylle from '$lib/img/camylle.png';
+import englisheasy from '$lib/img/englisheasy.png';
+import uvue from '$lib/img/uvue.png';
+import almodovar from '$lib/img/almodovar.png';
+import mediacao from '$lib/img/mediacao.png';
+import songoftheday from '$lib/img/songoftheday.png';
+import inglesinstrumental from '$lib/img/inglesinstrumental.png';
+import landingpage from '$lib/img/landingpage.png';
 export let projects = [
 	{
 		id: 1,
@@ -13,7 +21,7 @@ export let projects = [
 	{
 		id: 2,
 		nome: 'camylle',
-		img: susi,
+		img: camylle,
 		tec1: 'gatsby',
 		tec2: 'typescript',
 		tec3: 'css',
@@ -23,7 +31,7 @@ export let projects = [
 	{
 		id: 3,
 		nome: 'englisheasy',
-		img: susi,
+		img: englisheasy,
 		tec1: 'gatsby',
 		tec2: '',
 		tec3: 'css',
@@ -33,7 +41,7 @@ export let projects = [
 	{
 		id: 4,
 		nome: 'u-vue',
-		img: susi,
+		img: uvue,
 		tec1: 'vue',
 		tec2: 'vuetify',
 		tec3: '',
@@ -43,7 +51,7 @@ export let projects = [
 	{
 		id: 5,
 		nome: 'almodovar',
-		img: susi,
+		img: almodovar,
 		tec1: 'react',
 		tec2: 'bootstrap',
 		tec3: 'firebase',
@@ -53,7 +61,7 @@ export let projects = [
 	{
 		id: 6,
 		nome: 'mediacao',
-		img: susi,
+		img: mediacao,
 		tec1: 'gatsby',
 		tec2: 'bootstrap',
 		tec3: 'framer',
@@ -63,7 +71,7 @@ export let projects = [
 	{
 		id: 9,
 		nome: 'songoftheday',
-		img: susi,
+		img: songoftheday,
 		tec1: 'next',
 		tec2: 'framer',
 		tec3: '',
@@ -73,7 +81,7 @@ export let projects = [
 	{
 		id: 10,
 		nome: 'inglesinstrumental',
-		img: susi,
+		img: inglesinstrumental,
 		tec1: 'next',
 		tec2: 'markdown',
 		tec3: 'tailwind',
@@ -83,7 +91,7 @@ export let projects = [
 	{
 		id: 11,
 		nome: 'landingpage',
-		img: susi,
+		img: landingpage,
 		tec1: 'next',
 		tec2: 'bootstrap',
 		tec3: 'lotties',

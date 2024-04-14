@@ -2,6 +2,7 @@
 	import Header from '../components/header.svelte';
 	import Hero from '../components/hero.svelte';
 	import Projects from '../components/projects/projects.svelte';
+	import Contacts from '../components/contatos/contacts.svelte';
 </script>
 
 <div>
@@ -12,6 +13,7 @@
 		</div>
 		<div id="projetos" class=" bg-slate-600">
 			<Projects />
+			<Contacts />
 		</div>
 	</main>
 </div>
