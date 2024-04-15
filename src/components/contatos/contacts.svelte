@@ -28,9 +28,11 @@
 		font-size: 8rem;
 		margin: 2rem auto;
 		transition: color ease-in-out 0.6s;
+		transition: transform ease-in-out 0.8s;
 	}
 	a:hover {
 		color: red;
+		transform: scale(1.1);
 	}
 	@media only screen and (max-width: 820px) {
 		a {
