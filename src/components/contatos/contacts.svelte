@@ -2,8 +2,8 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<section class="bg-slate-100">
-	<h1 class="text-center text-6xl p-6 mb-4">contatos</h1>
+<section id="contatos" class="bg-slate-100">
+	<h1 class="text-center text-5xl p-6 mb-4 font-kolnia uppercase">contatos</h1>
 	<div
 		class="flex flex-col text-center justify-center m-auto
     md:flex-row md:justify-around"

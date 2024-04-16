@@ -47,12 +47,14 @@
 	<div class="bg-slate-600 text-white md:w-3/6">
 		<h3 class="text-6xl md:text-8xl font-jura">eu sou</h3>
 		<h2 class="text-6xl md:text-8xl font-orbitron">Jovane</h2>
-		<div class="container">
-			<h3 class="text-5xl md:text-6xl font-kolnia mt-3 m-auto pb-2 typed-out">programador web</h3>
+		<div class="container sm:w-3/5 lg:w-3/4">
+			<h3 class="text-5xl md:text-4xl lg:text-5xl font-kolnia mt-3 m-auto pb-2 typed-out">
+				programador web
+			</h3>
 		</div>
-		<h3 class="text-5xl md:text-6xl font-dancing mt-3 fade-in">tradutor</h3>
+		<h3 class="text-5xl md:text-4xl lg:text-5xl font-dancing mt-3 fade-in">tradutor</h3>
 	</div>
-	<div class="bg-slate-300 md:w-2/6 mx-2">
+	<div class="bg-slate-300 md:w-2/6">
 		<img class="my-6 rounded-lg" src={hero} alt="programador" /><a
 			class="text-xs ml-2"
 			href="https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm#fromView=search&page=1&position=34&uuid=1afe25d6-b397-480d-8bef-cc411cfc373f"
@@ -70,7 +72,7 @@
 			width: 0;
 		}
 		to {
-			width: 62%;
+			width: 100%;
 		}
 	}
 	@keyframes blink {

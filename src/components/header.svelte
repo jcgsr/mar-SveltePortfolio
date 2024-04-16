@@ -1,5 +1,7 @@
-<nav class="flex justify-around bg-transparent">
-	<span>jovane</span>
+<nav class="flex justify-around p-3 font-jura bg-transparent">
+	<a href="/">
+		<span>jovane</span>
+	</a>
 	<div class="flex justify-end">
 		<a href="#projetos">projetos</a>
 		<a href="#contatos">contatos</a>
