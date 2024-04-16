@@ -44,10 +44,13 @@
 	<div class="bg-slate-700 md:w-2/6">
 		<Particles id="tsparticles" style="" options={particlesConfig} />
 	</div>
-	<div class="bg-slate-600 md:w-3/6">
-		<h2 class="text-8xl">eu sou jovane</h2>
-		<h3 class="text-3xl mt-3">programador web</h3>
-		<h3 class="text-3xl mt-3">tradutor</h3>
+	<div class="bg-slate-600 text-white md:w-3/6">
+		<h3 class="text-6xl md:text-8xl font-jura">eu sou</h3>
+		<h2 class="text-6xl md:text-8xl font-orbitron">Jovane</h2>
+		<div class="container">
+			<h3 class="text-5xl md:text-6xl font-kolnia mt-3 m-auto pb-2 typed-out">programador web</h3>
+		</div>
+		<h3 class="text-5xl md:text-6xl font-dancing mt-3 fade-in">tradutor</h3>
 	</div>
 	<div class="bg-slate-300 md:w-2/6 mx-2">
 		<img class="my-6 rounded-lg" src={hero} alt="programador" /><a
@@ -57,3 +60,45 @@
 		>
 	</div>
 </section>
+
+<style>
+	.container {
+		display: inline-block;
+	}
+	@keyframes typing {
+		from {
+			width: 0;
+		}
+		to {
+			width: 62%;
+		}
+	}
+	@keyframes blink {
+		from {
+			border-color: transparent;
+		}
+		to {
+			border-color: gray;
+		}
+	}
+	@keyframes fadeIn {
+		0% {
+			opacity: 0;
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+	.typed-out {
+		overflow: hidden;
+		border-right: 0.15em solid white;
+		white-space: nowrap;
+		width: 0;
+		animation:
+			typing 3s steps(20, end) forwards infinite,
+			blink 0.8s infinite;
+	}
+	.fade-in {
+		animation: fadeIn 5s infinite;
+	}
+</style>
