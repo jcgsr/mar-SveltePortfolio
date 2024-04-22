@@ -3,7 +3,7 @@
 		<span>jovane</span>
 	</a>
 	<div class="flex justify-end">
-		<a href="#projetos">projetos</a>
+		<a href="/projetos">projetos</a>
 		<a href="#contatos">contatos</a>
 		<a href="/sobre">sobre</a>
 	</div>

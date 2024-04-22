@@ -3,17 +3,17 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<section class="bg-slate-500">
+<section class="bg-zinc-700">
 	<h1 class="text-center font-orbitron uppercase text-5xl p-6 mb-4">projetos</h1>
 	<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center justify-items-stretch">
 		{#each projects as { nome, img, tec1, tec2, tec3, tec4, end }}
 			<div
 				class="rounded-lg overflow-hidden shadow-lg m-4 lg:w-1/4
-        hover:scale-105 delay-200 duration-700 dark:shadow-white"
+        hover:scale-105 delay-200 duration-700 dark:shadow-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:delay-200"
 			>
 				<img src={img} alt={nome} />
 				<div class="flex flex-row">
-					<span>{nome}</span><span>
+					<span class="font-orbitron">{nome}</span><span>
 						<a href={end} target="_blank">
 							<Icon
 								icon="f7:arrow-turn-up-right"
@@ -34,6 +34,9 @@
 <style>
 	span {
 		margin: 0.3rem;
+		padding: 0.5rem;
 		text-align: left;
+		font-family: 'Orbitron', sans-serif;
+		color: red;
 	}
 </style>

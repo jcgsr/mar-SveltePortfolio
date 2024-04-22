@@ -25,7 +25,7 @@
 
 <style>
 	a {
-		font-size: 8rem;
+		font-size: 6rem;
 		margin: 2rem auto;
 		transition: color ease-in-out 0.6s;
 		transition: transform ease-in-out 0.8s;
@@ -36,7 +36,7 @@
 	}
 	@media only screen and (max-width: 820px) {
 		a {
-			font-size: 6rem;
+			font-size: 4rem;
 		}
 	}
 </style>
