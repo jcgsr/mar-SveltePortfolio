@@ -1,31 +1,24 @@
 <script>
 	import { projects } from './projects';
-	import Icon from '@iconify/svelte';
 </script>
 
 <section class="bg-zinc-700">
-	<h1 class="text-center font-orbitron uppercase text-5xl p-6 mb-4">projetos</h1>
+	<h1 class="text-center text-white font-orbitron uppercase text-5xl p-6 mb-4">projetos</h1>
 	<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center justify-items-stretch">
 		{#each projects as { nome, img, tec1, tec2, tec3, tec4, end }}
 			<div
 				class="rounded-lg overflow-hidden shadow-lg m-4 lg:w-1/4
-        hover:scale-105 delay-200 duration-700 dark:shadow-white bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 hover:delay-200"
+        hover:scale-105 delay-200 duration-700 dark:shadow-white bg-gradient-to-r from-gray-400 to-gray-900 hover:from-gray-900 hover:to-gray-400 hover:delay-200"
 			>
 				<img src={img} alt={nome} />
 				<div class="flex flex-row">
-					<span class="font-orbitron">{nome}</span><span>
-						<a href={end} target="_blank">
-							<Icon
-								icon="f7:arrow-turn-up-right"
-								inline={true}
-								style="font-size: 20px; font-weight: bold;"
-							/></a
-						><span> </span></span
-					>
+					<a class="font-orbitron ml-4 text-white" href={end} target="_blank"> {nome}</a>
 				</div>
-				<span>{tec1}</span> <span>{tec2}</span>
-				<span>{tec3}</span> <span>{tec4}</span>
-				<p></p>
+
+				<div class="flex flex-row justify-around text-xs">
+					<span>{tec1}</span> <span>{tec2}</span>
+					<span>{tec3}</span> <span>{tec4}</span>
+				</div>
 			</div>
 		{/each}
 	</div>
@@ -33,10 +26,12 @@
 
 <style>
 	span {
-		margin: 0.3rem;
-		padding: 0.5rem;
+		margin: 0.8rem;
+		padding: 0.4rem;
+		background-color: gray;
 		text-align: left;
 		font-family: 'Orbitron', sans-serif;
-		color: red;
+		color: white;
+		font-size: smaller;
 	}
 </style>

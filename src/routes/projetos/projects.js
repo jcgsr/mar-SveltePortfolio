@@ -33,7 +33,7 @@ export let projects = [
 		nome: 'englisheasy',
 		img: englisheasy,
 		tec1: 'gatsby',
-		tec2: '',
+		tec2: 'html',
 		tec3: 'css',
 		tec4: 'framer',
 		end: 'https://www.englisheasyfm.com.br/'
@@ -44,7 +44,7 @@ export let projects = [
 		img: uvue,
 		tec1: 'vue',
 		tec2: 'vuetify',
-		tec3: '',
+		tec3: 'css',
 		tec4: 'framer',
 		end: 'https://u-vue.netlify.app/'
 	},
@@ -74,7 +74,7 @@ export let projects = [
 		img: songoftheday,
 		tec1: 'next',
 		tec2: 'framer',
-		tec3: '',
+		tec3: 'css',
 		tec4: 'framer',
 		end: 'https://songoftheday.vercel.app/'
 	},

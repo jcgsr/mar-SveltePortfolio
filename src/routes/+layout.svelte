@@ -30,7 +30,7 @@
 	footer {
 		display: flex;
 		justify-content: center;
-		color: #c5ae4f;
+		color: gray;
 	}
 
 	@media (min-width: 480px) {
