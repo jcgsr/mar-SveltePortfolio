@@ -2,7 +2,7 @@
 	import Icon from '@iconify/svelte';
 </script>
 
-<section id="contatos" class="bg-slate-100 text-gray-500">
+<section id="contatos" class="bg-gray-100 text-gray-500">
 	<h1 class="text-center text-5xl p-6 mb-4 font-kolnia uppercase">contatos</h1>
 	<div
 		class="flex flex-col text-center justify-center m-auto

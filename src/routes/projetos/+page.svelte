@@ -2,12 +2,12 @@
 	import { projects } from './projects';
 </script>
 
-<section class="bg-zinc-700">
+<section class="bg-gray-700">
 	<h1 class="text-center text-white font-orbitron uppercase text-5xl p-6 mb-4">projetos</h1>
 	<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center justify-items-stretch">
 		{#each projects as { nome, img, tec1, tec2, tec3, tec4, end }}
 			<div
-				class="rounded-lg overflow-hidden shadow-lg m-4 lg:w-1/4
+				class="rounded-lg overflow-hidden shadow-md shadow-white m-4 lg:w-1/4
         hover:scale-105 delay-200 duration-700 dark:shadow-white bg-gradient-to-r from-gray-400 to-gray-900 hover:from-gray-900 hover:to-gray-400 hover:delay-200"
 			>
 				<img src={img} alt={nome} />

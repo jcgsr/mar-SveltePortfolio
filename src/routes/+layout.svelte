@@ -1,19 +1,16 @@
 <script>
 	import '../app.css';
 	import Header from '../components/header.svelte';
-	import { fly } from 'svelte/transition';
-	import { cubicIn, cubicOut } from 'svelte/easing';
+	import { fade } from 'svelte/transition';
 	export let data;
+	$: pathname = data.pathname;
 </script>
 
 <div class="app">
 	<Header />
 
-	{#key data.pathname}
-		<main
-			in:fly={{ easing: cubicOut, y: 10, duration: 300, delay: 400 }}
-			out:fly={{ easing: cubicIn, y: -10, duration: 300 }}
-		>
+	{#key pathname}
+		<main in:fade={{ duration: 300, delay: 400 }} out:fade={{ duration: 300 }}>
 			<slot />
 		</main>
 	{/key}
