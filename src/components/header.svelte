@@ -32,14 +32,17 @@
 					: 'hidden'}"
 			>
 				<a
+					on:click={toggleNavbar}
 					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/projetos">projetos</a
 				>
 				<a
+					on:click={toggleNavbar}
 					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/#contatos">contatos</a
 				>
 				<a
+					on:click={toggleNavbar}
 					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/sobre">sobre</a
 				>

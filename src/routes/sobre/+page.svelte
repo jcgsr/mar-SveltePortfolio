@@ -4,8 +4,8 @@
 
 <section class="w-3/4 m-auto text-gray-500">
 	<h1 class="text-center text-5xl p-4 mb-4 font-jura">sobre mim</h1>
-	<div class="sobre flex flex-row">
-		<img class="w-2/4 mr-4 rounded-md" src={jd} alt="Foto de Jovane e Diana" />
+	<div class="sobre flex flex-col md:flex-row">
+		<img class="w-4/4 mb-4 md:w-2/4 mr-4 rounded-md" src={jd} alt="Foto de Jovane e Diana" />
 		<p class="font-jura">
 			Pernambucano do Recife, alvirrubro, pai (abestalhado) de Diana, Beethoven, Mozart, Brenda,
 			Nina e Mia. Vegetariano, defensor dos direitos dos animais, enxadrista, schopenhauriano,
