@@ -6,30 +6,47 @@
 	}
 </script>
 
-<nav class="flex text-gray-700 justify-around p-3 font-jura bg-transparent">
-	<a href="/">
-		<span>jovane</span>
-	</a>
-	<!-- svelte-ignore a11y-no-static-element-interactions -->
-	<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
-		<button class="mobile-dropdown-toggle" aria-hidden="true">
-			{#if showMenu}
-				<Icon icon="mdi:close" style="color: black" />
-			{:else}
-				<Icon icon="mdi:hamburger-menu" style="color: black" />
-			{/if}
-		</button>
+<div>
+	<div>
+		<nav
+			class="lg:flex bg-transparent px-4 lg:px-10 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-gray-800"
+		>
+			<div class="flex items-center align-middle justify-between">
+				<a href="/">
+					<span class="text-gray-500">jovane</span>
+				</a>
+				<!-- svelte-ignore a11y-no-static-element-interactions -->
+				<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
+					<button class="text-white focus:outline-none">
+						{#if showMenu}
+							<Icon icon="mdi:close" style="color: gray" />
+						{:else}
+							<Icon icon="mdi:hamburger-menu" style="color: gray" />
+						{/if}
+					</button>
+				</div>
+			</div>
+			<div
+				class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 {showMenu
+					? 'flex '
+					: 'hidden'}"
+			>
+				<a
+					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					href="/projetos">projetos</a
+				>
+				<a
+					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					href="/#contatos">contatos</a
+				>
+				<a
+					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					href="/sobre">sobre</a
+				>
+			</div>
+		</nav>
 	</div>
-	<div
-		class="flex-col mt-8 space-y-4 lg:flex lg:space-y-0 lg:flex-row lg:items-center lg:space-x-10 lg:mt-0 {showMenu
-			? 'flex'
-			: 'hidden'}"
-	>
-		<a href="/projetos">projetos</a>
-		<a href="/#contatos">contatos</a>
-		<a href="/sobre">sobre</a>
-	</div>
-</nav>
+</div>
 
 <style>
 	a {
