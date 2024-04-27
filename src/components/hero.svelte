@@ -37,7 +37,7 @@
 </script>
 
 <section
-	class="flex flex-col-reverse align-middle text-center justify-center md:flex-row
+	class="flex flex-col-reverse align-middle text-center justify-center md:flex-row mt-1
   "
 >
 	<div class="bg-black md:w-2/6">

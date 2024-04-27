@@ -9,11 +9,11 @@
 <div>
 	<div>
 		<nav
-			class="lg:flex bg-transparent px-4 lg:px-10 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-gray-800"
+			class="lg:flex bg-transparent px-4 lg:px-10 py-4 mx-auto md:justify-between md:items-center shadow-md shadow-gray-800 dark:shadow-gray-100"
 		>
 			<div class="flex items-center align-middle justify-between">
 				<a href="/">
-					<span class="text-gray-500">jovane</span>
+					<span class="text-gray-500 dark:text-gray-50">jovane</span>
 				</a>
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
@@ -33,17 +33,17 @@
 			>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/projetos">projetos</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/#contatos">contatos</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/sobre">sobre</a
 				>
 			</div>

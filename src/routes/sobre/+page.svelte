@@ -2,7 +2,7 @@
 	import jd from '../../lib/img/jd.webp';
 </script>
 
-<section class="w-3/4 m-auto text-gray-500">
+<section class="w-3/4 m-auto text-gray-500 dark:bg-gray-800 dark:text-gray-100 mt-8 mb-8">
 	<h1 class="text-center text-5xl p-4 mb-4 font-jura">sobre mim</h1>
 	<div class="sobre flex flex-col md:flex-row">
 		<img class="w-4/4 mb-4 md:w-2/4 mr-4 rounded-md" src={jd} alt="Foto de Jovane e Diana" />

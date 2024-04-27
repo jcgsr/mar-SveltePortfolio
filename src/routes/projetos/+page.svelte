@@ -2,7 +2,7 @@
 	import { projects } from './projects';
 </script>
 
-<section class="bg-gray-700">
+<section class="bg-gray-700 mt-2">
 	<h1 class="text-center text-white font-orbitron uppercase text-5xl p-6 mb-4">projetos</h1>
 	<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center justify-items-stretch">
 		{#each projects as { nome, img, tec1, tec2, tec3, tec4, end }}
