@@ -65,7 +65,7 @@ export let projects = [
 		tec1: 'gatsby',
 		tec2: 'bootstrap',
 		tec3: 'framer',
-		tec4: 'framer',
+		tec4: 'css',
 		end: 'https://www.equipemediacao.com.br/'
 	},
 	{
@@ -75,7 +75,7 @@ export let projects = [
 		tec1: 'next',
 		tec2: 'framer',
 		tec3: 'css',
-		tec4: 'framer',
+		tec4: 'html',
 		end: 'https://songoftheday.vercel.app/'
 	},
 	{
