@@ -1,5 +1,6 @@
 <script>
 	import Icon from '@iconify/svelte';
+	import Logo from '../lib/img/logo.png';
 	let showMenu = false;
 	function toggleNavbar() {
 		showMenu = !showMenu;
@@ -13,15 +14,15 @@
 		>
 			<div class="flex items-center align-middle justify-between">
 				<a href="/">
-					<span class="text-gray-500 dark:text-gray-50">jovane</span>
+					<img src={Logo} alt="logo de Jovane" class="h-12" />
 				</a>
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
-					<button class="text-white focus:outline-none">
+					<button class="text-white focus:outline-none mr-4">
 						{#if showMenu}
-							<Icon icon="mdi:close" style="color: gray" />
+							<Icon icon="mdi:close" style="color: gray" width="48" />
 						{:else}
-							<Icon icon="mdi:hamburger-menu" style="color: gray" />
+							<Icon icon="mdi:hamburger-menu" style="color: gray" width="48" />
 						{/if}
 					</button>
 				</div>

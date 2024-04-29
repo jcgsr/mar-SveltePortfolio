@@ -1,6 +1,8 @@
 <script>
 	import { projects } from './projects';
 	let y;
+	// metatags
+	import Seo from '../../lib/seo.svelte';
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -26,6 +28,7 @@
 		{/each}
 	</div>
 </section>
+<Seo title="Projetos" description="Página dos projetos de Jovane" type="website" />
 
 <style>
 	span {
