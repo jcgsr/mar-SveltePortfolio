@@ -14,15 +14,15 @@
 		>
 			<div class="flex items-center align-middle justify-between">
 				<a href="/">
-					<img src={Logo} alt="logo de Jovane" class="h-12" />
+					<img src={Logo} alt="logo de Jovane" class="h-6 md:h-8" />
 				</a>
 				<!-- svelte-ignore a11y-no-static-element-interactions -->
 				<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
 					<button class="text-white focus:outline-none mr-4">
 						{#if showMenu}
-							<Icon icon="mdi:close" style="color: gray" width="48" />
+							<Icon icon="mdi:close" style="color: #64748b" width="48" />
 						{:else}
-							<Icon icon="mdi:hamburger-menu" style="color: gray" width="48" />
+							<Icon icon="mdi:hamburger-menu" style="color: #64748b" width="48" />
 						{/if}
 					</button>
 				</div>
@@ -34,17 +34,17 @@
 			>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/projetos">projetos</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/#contatos">contatos</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
 					href="/sobre">sobre</a
 				>
 			</div>

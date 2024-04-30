@@ -64,7 +64,7 @@ export let projects = [
 		img: mediacao,
 		tec1: 'gatsby',
 		tec2: 'bootstrap',
-		tec3: 'framer',
+		tec3: 'figma',
 		tec4: 'css',
 		end: 'https://www.equipemediacao.com.br/'
 	},
@@ -73,7 +73,7 @@ export let projects = [
 		nome: 'songoftheday',
 		img: songoftheday,
 		tec1: 'next',
-		tec2: 'framer',
+		tec2: 'figma',
 		tec3: 'css',
 		tec4: 'html',
 		end: 'https://songoftheday.vercel.app/'
