@@ -20,9 +20,9 @@
 				<div on:click={toggleNavbar} class="flex lg:hidden" on:keypress={toggleNavbar}>
 					<button class="text-white focus:outline-none mr-4">
 						{#if showMenu}
-							<Icon icon="mdi:close" style="color: #64748b" width="48" />
+							<Icon icon="mdi:close" style="color: #64748b" width="40" />
 						{:else}
-							<Icon icon="mdi:hamburger-menu" style="color: #64748b" width="48" />
+							<Icon icon="mdi:hamburger-menu" style="color: #64748b" width="40" />
 						{/if}
 					</button>
 				</div>

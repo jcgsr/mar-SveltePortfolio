@@ -3,12 +3,33 @@
 	let y;
 	// metatags
 	import Seo from '../../lib/seo.svelte';
+
+	// motion one
+
+	import { animate, stagger, inView } from 'motion';
+	inView('div', ({ target }) => {
+		animate(
+			target.querySelectorAll('.aM'),
+			{
+				y: ['-50px', '0'],
+				opacity: ['0', '1']
+			},
+			{ delay: stagger(0.5), duration: 0.4, easing: [0.17, 0.55, 0.55, 1] }
+		),
+			animate(
+				target.querySelectorAll('.spanM'),
+				{
+					y: ['50px', '0'],
+					opacity: ['0', '1']
+				},
+				{ delay: stagger(0.3), duration: 0.4, easing: [0.17, 0.55, 0.55, 1] }
+			);
+	});
 </script>
 
-<svelte:window bind:scrollY={y} />
 <section class="bg-gray-700 mt-1">
-	<h1 class="text-center text-white font-orbitron uppercase text-5xl p-6 mb-4">projetos</h1>
-	<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center justify-items-stretch">
+	<h2 class="text-center text-white font-orbitron uppercase text-5xl p-6 mb-4">projetos</h2>
+	<div class="flex flex-col lg:flex-row lg:flex-wrap justify-center justify-items-stretch divM">
 		{#each projects as { nome, img, tec1, tec2, tec3, tec4, end }}
 			<div
 				class="rounded-lg overflow-hidden shadow-md shadow-white m-4 lg:w-1/4
@@ -17,12 +38,12 @@
 			>
 				<img src={img} alt={nome} />
 				<div class="flex flex-row">
-					<a class="font-orbitron ml-4 text-white" href={end} target="_blank"> {nome}</a>
+					<a class="font-orbitron ml-4 text-white aM" href={end} target="_blank"> {nome}</a>
 				</div>
 
 				<div class="flex flex-row justify-around text-xs">
-					<span>{tec1}</span> <span>{tec2}</span>
-					<span>{tec3}</span> <span>{tec4}</span>
+					<span class="spanM">{tec1}</span> <span class="spanM">{tec2}</span>
+					<span class="spanM">{tec3}</span> <span class="spanM">{tec4}</span>
 				</div>
 			</div>
 		{/each}
@@ -40,17 +61,5 @@
 		color: white;
 		font-size: smaller;
 		border-radius: 5px;
-	}
-	.aos-hidden-bottom {
-		opacity: 0;
-		filter: blur(2px);
-		/*transform: translateY(100%);*/
-		transition: all 1.3s;
-	}
-
-	.aos-show {
-		opacity: 1;
-		filter: blur(0);
-		transform: translateX(0);
 	}
 </style>

@@ -5,7 +5,7 @@
 
 <svelte:window bind:scrollY={y} />
 <section id="contatos" class="bg-gray-100 text-gray-500">
-	<h1 class="text-center text-5xl p-6 mb-4 font-kolnia uppercase">contatos</h1>
+	<h2 class="text-center text-5xl p-6 mb-4 font-kolnia uppercase">contatos</h2>
 	<div
 		class="flex flex-col text-center justify-center m-auto
     md:flex-row md:justify-around"
@@ -13,7 +13,7 @@
 		<a
 			href="https://wa.me/5579988284730?text=Gostaria%de%saber%o%valor%..."
 			class="aos-hidden-left"
-			class:aos-show={y >= 100}
+			class:aos-show={y >= 400}
 			target="_blank"
 		>
 			<Icon icon="mdi:whatsapp" />
@@ -22,7 +22,7 @@
 			href="https://github.com/jcgsr"
 			target="_blank"
 			class="aos-hidden-bottom"
-			class:aos-show={y >= 150}
+			class:aos-show={y >= 450}
 		>
 			<Icon icon="mdi:github" />
 		</a>
@@ -31,7 +31,7 @@
 			href="mailto:cabralguerra@gmail.com"
 			target="_blank"
 			class="aos-hidden-bottom"
-			class:aos-show={y >= 150}
+			class:aos-show={y >= 450}
 		>
 			<Icon icon="mdi:email" />
 		</a>
@@ -40,7 +40,7 @@
 			href="https://www.facebook.com/cabral8guerra"
 			target="_blank"
 			class="aos-hidden-bottom"
-			class:aos-show={y >= 150}
+			class:aos-show={y >= 450}
 		>
 			<Icon icon="mdi:facebook" />
 		</a>
@@ -48,7 +48,7 @@
 			href="https://www.instagram.com/cabralguerra/"
 			target="_blank"
 			class="aos-hidden-right"
-			class:aos-show={y >= 100}
+			class:aos-show={y >= 400}
 		>
 			<Icon icon="mdi:instagram" />
 		</a>
@@ -73,19 +73,19 @@
 	.aos-hidden-left {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateX(-100%);
+		transform: translateX(-200%);
 		transition: all 1.3s;
 	}
 	.aos-hidden-right {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateX(100%);
+		transform: translateX(200%);
 		transition: all 1.3s;
 	}
 	.aos-hidden-bottom {
 		opacity: 0;
 		filter: blur(3px);
-		transform: translateY(100%);
+		transform: translateY(200%);
 		transition: all 1.3s;
 	}
 

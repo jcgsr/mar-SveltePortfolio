@@ -27,8 +27,3 @@
 	name="Home"
 	content="Portfólio de web designer de Jovane"
 />
-<meta
-	name="keywords"
-	content="Aracaju, Desenvolvedor Web, Progamador, JavaScript, Site, Svelte, Jovane"
-/>
-/>
