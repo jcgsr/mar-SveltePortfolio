@@ -34,17 +34,17 @@
 			>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8 rounded"
 					href="/projetos">projetos</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8 rounded"
 					href="/#contatos">contatos</a
 				>
 				<a
 					on:click={toggleNavbar}
-					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8"
+					class="text-gray-500 font-bold dark:text-gray-50 hover:bg-gray-500 hover:text-gray-50 text-xl transition transform duration-500 ease-in-out p-2 group-hover:mr-8 rounded"
 					href="/sobre">sobre</a
 				>
 			</div>

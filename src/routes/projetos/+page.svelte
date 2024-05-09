@@ -38,7 +38,14 @@
 			>
 				<img src={img} alt={nome} />
 				<div class="flex flex-row">
-					<a class="font-orbitron ml-4 text-white aM" href={end} target="_blank"> {nome}</a>
+					<a
+						class="font-orbitron ml-4 text-white aM"
+						href={end}
+						title="clique para visitar o projeto"
+						target="_blank"
+					>
+						{nome}</a
+					>
 				</div>
 
 				<div class="flex flex-row justify-around text-xs">
