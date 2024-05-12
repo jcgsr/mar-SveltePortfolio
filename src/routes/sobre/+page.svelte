@@ -28,7 +28,7 @@
 			Nina e Mia. Vegetariano, defensor dos direitos dos animais, enxadrista, schopenhauriano,
 			socrático, guitarrista (admirador da Les Paul), violonista, bebedor de whisky. Atualmente,
 			moro em Aracaju, mas doido para voltar para Recife. Usuário Linux desde sempre, usando Fedora
-			39. Mestrando (Letras) na UFS. Estudando JavaScript (sempre) e Svelte para poder realizar meu
+			40. Mestrando (Letras) na UFS. Estudando JavaScript (sempre) e Svelte para poder realizar meu
 			objetivo de me tornar um programador profissional e viver só disso.
 		</p>
 	</div>
