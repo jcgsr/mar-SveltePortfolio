@@ -86,7 +86,7 @@ export let projects = [
 		tec2: 'markdown',
 		tec3: 'tailwind',
 		tec4: 'framer',
-		end: 'https://www.inglesinstrumental.blog.br/'
+		end: 'https://inglesinstrumental.vercel.app/'
 	},
 	{
 		id: 11,
