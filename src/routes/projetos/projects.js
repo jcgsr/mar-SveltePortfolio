@@ -55,8 +55,8 @@ export let projects = [
 		tec1: 'react',
 		tec2: 'bootstrap',
 		tec3: 'firebase',
-		tec4: 'framer',
-		end: 'https://almodovarcultmovielist.netlify.app/'
+		tec4: 'aos',
+		end: 'https://almodovarcult·list.netlify.app/'
 	},
 	{
 		id: 6,
