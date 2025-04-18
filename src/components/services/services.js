@@ -23,10 +23,10 @@ export let services = [
 	{
 		id: 3,
 		nome: 'ensino',
-		des: 'Professor de inglês (cursinhos e particular) de 2006 a 2013 na Wizard. Formado em Letras inglês pela UFS em 2009. Ainda em 2013, ingressei no ensino público, no qual estou até hoje como professor concursado do Ensino Fundamental (Anos Finais) nos municípios de Riachuelo e de Lagarto em Sergipe. Estou no segundo ano do mestrado em Letras na UFS.',
+		des: 'Professor de inglês (cursinhos - Wizard, Transworld e particular) de 2006 a 2013. Formado em Letras Inglês pela UFS em 2009. Em 2013, ingressei no ensino público, no qual estou até hoje como professor concursado do Ensino Fundamental (Anos Finais) no município de Riachuelo em Sergipe. Em 11 de fevereiro de 2025, obtive o título de mestre em Letras pela UFS.',
 		icon: school,
 		tec1: 'Riachuelo',
-		tec2: 'Lagarto',
+		tec2: 'UFS',
 		tec3: 'Mestrado'
 	}
 ];

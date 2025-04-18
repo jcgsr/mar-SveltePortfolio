@@ -7,6 +7,7 @@ import mediacao from '$lib/img/mediacao.png';
 import songoftheday from '$lib/img/songoftheday.png';
 import inglesinstrumental from '$lib/img/inglesinstrumental.png';
 import landingpage from '$lib/img/landingpage.png';
+import ecesb from '$lib/img/ecesb.png';
 export let projects = [
 	{
 		id: 1,
@@ -95,6 +96,16 @@ export let projects = [
 		tec1: 'next',
 		tec2: 'bootstrap',
 		tec3: 'lotties',
+		tec4: 'aos',
+		end: 'https://landingpageexample.vercel.app/'
+	},
+	{
+		id: 12,
+		nome: 'ecesb',
+		img: ecesb,
+		tec1: 'svelte',
+		tec2: 'tailwind',
+		tec3: 'framer',
 		tec4: 'aos',
 		end: 'https://landingpageexample.vercel.app/'
 	}
