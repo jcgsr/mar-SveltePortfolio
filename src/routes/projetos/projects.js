@@ -107,6 +107,6 @@ export let projects = [
 		tec2: 'tailwind',
 		tec3: 'framer',
 		tec4: 'aos',
-		end: 'https://landingpageexample.vercel.app/'
+		end: 'https://ecesb.netlify.app/'
 	}
 ];
