@@ -8,6 +8,7 @@ import songoftheday from '$lib/img/songoftheday.png';
 import inglesinstrumental from '$lib/img/inglesinstrumental.png';
 import landingpage from '$lib/img/landingpage.png';
 import ecesb from '$lib/img/ecesb.png';
+import meusescritos from '$lib/img/meusescritos.png';
 export let projects = [
 	{
 		id: 1,
@@ -108,5 +109,15 @@ export let projects = [
 		tec3: 'framer',
 		tec4: 'aos',
 		end: 'https://ecesb.netlify.app/'
+	},
+	{
+		id: 13,
+		nome: 'meusescritos',
+		img: meusescritos,
+		tec1: 'react',
+		tec2: 'firebase',
+		tec3: 'css',
+		tec4: 'motion',
+		end: 'https://meusescritos.netlify.app/'
 	}
 ];
