@@ -9,6 +9,7 @@ import inglesinstrumental from '$lib/img/inglesinstrumental.png';
 import landingpage from '$lib/img/landingpage.png';
 import ecesb from '$lib/img/ecesb.png';
 import meusescritos from '$lib/img/meusescritos.png';
+import hsk1 from '$lib/img/hsk1.png';
 export let projects = [
 	{
 		id: 1,
@@ -119,5 +120,15 @@ export let projects = [
 		tec3: 'css',
 		tec4: 'motion',
 		end: 'https://meusescritos.netlify.app/'
+	},
+	{
+		id: 14,
+		nome: 'hsk1',
+		img: hsk1,
+		tec1: 'next',
+		tec2: 'markdown',
+		tec3: 'tailwind',
+		tec4: 'framer',
+		end: 'https://hsk1instrumental.vercel.app/'
 	}
 ];

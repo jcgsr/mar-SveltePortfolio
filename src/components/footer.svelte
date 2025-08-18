@@ -1,4 +1,9 @@
-<footer>&copy; 2024 - Jovane</footer>
+<script>
+	let myDate = new Date();
+	let year = myDate.getFullYear();
+</script>
+
+<footer>&copy; 2024 - {year} Jovane</footer>
 
 <style>
 	footer {
