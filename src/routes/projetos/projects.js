@@ -10,6 +10,7 @@ import landingpage from '$lib/img/landingpage.png';
 import ecesb from '$lib/img/ecesb.png';
 import meusescritos from '$lib/img/meusescritos.png';
 import hsk1 from '$lib/img/hsk1.png';
+import grego from '$lib/img/grego.png';
 export let projects = [
 	{
 		id: 1,
@@ -129,6 +130,16 @@ export let projects = [
 		tec2: 'markdown',
 		tec3: 'tailwind',
 		tec4: 'framer',
-		end: 'https://hsk1instrumental.vercel.app/'
+		end: 'https://hsk1instrumental.netlify.app/'
+	},
+	{
+		id: 14,
+		nome: 'grego',
+		img: grego,
+		tec1: 'next',
+		tec2: 'markdown',
+		tec3: 'tailwind',
+		tec4: 'framer',
+		end: 'https://gregoinstrumental.netlify.app/'
 	}
 ];
