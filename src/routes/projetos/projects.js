@@ -60,7 +60,7 @@ export let projects = [
 		tec2: 'bootstrap',
 		tec3: 'firebase',
 		tec4: 'aos',
-		end: 'https://almodovarcult·list.netlify.app/'
+		end: 'https://almodovarcultlist.netlify.app/'
 	},
 	{
 		id: 6,
